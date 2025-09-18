@@ -1,0 +1,6 @@
+SET NOCOUNT ON;
+
+
+SELECT * FROM CITY WHERE CountryCode = "USA" and POPULATION > 100000
+ 
+go
